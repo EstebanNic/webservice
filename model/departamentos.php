@@ -42,6 +42,7 @@ class Departamento extends Conectar {
         $sql->bindValue(4, $id);
         $sql->execute();
         return ["resultado" => "Departamento actualizado"];
+        //actualización para github
     }
 }
 ?>
